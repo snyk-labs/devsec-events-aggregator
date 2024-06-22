@@ -54,13 +54,13 @@ want an event to look like after aggregation and cleaup has been done.
 ```
 
 - `cfp` - JSON object or `null`. Includes CFP-related information.
-- `cfp.closes` - The date at which the CFP will be closed to new submissions.
-- `cfp.url` - **(required)** The URL of the website pointing to the CFP.
+  - `cfp.closes` - The date at which the CFP will be closed to new submissions.
+  - `cfp.url` - **(required)** The URL of the website pointing to the CFP.
 - `ends` - **(required)** The date at which the event will end.
 - `location` - JSON object or `null`. Includes location-related information for events with
     a physical component.
-- `location.city` - The city the event is taking place in.
-- `location.country` - The country the event is taking place in. This is in [ISO 3166-1 Alpha-2 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
+  - `location.city` - The city the event is taking place in.
+  - `location.country` - The country the event is taking place in. This is in [ISO 3166-1 Alpha-2 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2).
 - `name` - **(required)** - The event name.
 - `starts` - **(required)** - The date at which the event starts.
 - `url` - **(required)** - The URL of the website pointing to the event.
